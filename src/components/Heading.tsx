@@ -2,7 +2,7 @@ import { ReactElement } from "react";
 import Tagline from "./Tagline";
 
 interface HeadingProps {
-  className: string;
+  className?: string;
   title?: string;
   text?: string;
   tag?: ReactElement;
