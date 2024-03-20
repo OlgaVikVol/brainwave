@@ -5,7 +5,7 @@ interface HeadingProps {
   className?: string;
   title?: string;
   text?: string;
-  tag?: ReactElement;
+  tag?: string;
 }
 
 const Heading = (props: HeadingProps) => {
