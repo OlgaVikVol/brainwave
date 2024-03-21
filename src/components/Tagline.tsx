@@ -2,8 +2,8 @@ import { ReactElement } from "react";
 import brackets from "../assets/svg/Brackets";
 
 interface TaglineProps {
-  className: string;
-  children: ReactElement;
+  className?: string;
+  children?: string;
 }
 
 const Tagline = ({ className, children }: TaglineProps) => {
